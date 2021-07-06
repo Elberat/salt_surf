@@ -1,0 +1,12 @@
+.look-loading{
+    margin: 50px 0;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: Roboto;
+}
+
+
+.container > img{
+    width:100%
+}

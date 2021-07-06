@@ -1,0 +1,54 @@
+.buttons{
+    padding-left: 17px;
+    display:flex;
+    flex-direction: column;
+    margin: 0 auto;
+
+}
+
+
+.button{
+    margin: 0 auto;
+    width: 100px;
+    height: 40px;
+    color: black;
+    border: 1px black solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.create-inps{
+    margin: auto;
+    text-align: center;
+}
+.inputs{
+    margin: auto;
+    width: 400px;
+    height:60px;
+    
+}
+.btnsave{
+    margin-top: 20px;
+}
+
+.edit_container{
+    display: flex;
+}
+
+.edit_container > img {
+    width: 40%;
+    height: 500px;
+    object-fit: contain;
+}
+
+.edit-inps{
+    display: flex;
+    flex-direction: column;
+    padding: 15px ;
+    padding-bottom: 0px ;
+    width: 400px;
+}
+
+.edit-inps > textarea{
+    height: 70px;
+}

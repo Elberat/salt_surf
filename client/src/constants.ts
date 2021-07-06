@@ -1,0 +1,1 @@
+export const REACT_API : string = 'http://localhost:5000/'

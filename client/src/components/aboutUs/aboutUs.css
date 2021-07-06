@@ -1,0 +1,45 @@
+.about_content{
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about_content_left{
+    width: 48%
+}
+
+.about_content_left > img{
+    width: 100%
+}
+
+.about_content_right{
+    width: 48%
+}
+
+.about_descr{
+    margin-top: 20px;
+}
+
+@media all and (max-width:900px){
+    h3{
+        text-align: center;
+    }
+    .about_content{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .about_content_left{
+        margin: 0 auto;
+    }
+    .about_content_right{
+        margin: 20px auto;
+        width:100%
+    }
+}
+@media all and (max-width:740px){
+    .about_content{
+        font-size: 12px;
+    }
+}

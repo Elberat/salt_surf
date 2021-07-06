@@ -1,0 +1,33 @@
+.footer_content{
+    font-size: 13px;
+
+}
+
+hr{
+    margin: 20px 0;
+}
+
+.flex{
+    
+    display: flex;
+    justify-content: space-between  ;
+}
+
+
+.second_contacts_descr{
+    margin-left: -19px;
+}
+
+@media all and (max-width: 1340px){
+    .flex{
+        display: block;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        
+    }
+
+    .mt10{
+        margin-top: 10px;
+    }
+}
